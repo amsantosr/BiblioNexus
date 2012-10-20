@@ -1,0 +1,17 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.important {
+			font-weight: bold;
+		}
+	</ui:style>
+	<g:VerticalPanel>
+	   <g:FlowPanel>
+	       <g:HTML>Bienvenido </g:HTML>
+	       <g:Label ui:field="lblGoogleAccount"></g:Label>
+	       <g:Anchor ui:field="anchorBack">Volver</g:Anchor>
+	       <g:Anchor ui:field="anchorCloseSession">Cerrar sesión</g:Anchor>
+	   </g:FlowPanel>
+	</g:VerticalPanel>
+</ui:UiBinder> 

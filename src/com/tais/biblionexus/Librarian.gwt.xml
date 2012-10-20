@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.4.0//EN" "http://google-web-toolkit.googlecode.com/svn/tags/2.4.0/distro-source/core/src/gwt-module.dtd">
+<module rename-to="librarian">
+  <inherits name="com.google.gwt.user.User" />  
+  <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/> -->
+  <inherits name='com.google.gwt.user.theme.chrome.Chrome'/>
+  <inherits name='com.google.gwt.xml.XML'/>
+  <inherits name="com.googlecode.objectify.Objectify" />
+  <source path="client/services" />
+  <source path="client/librarian"/>
+  <source path="client/entities"/>
+  <source path="client/common"/>
+  <source path="shared" />
+  <inherits name="com.tais.biblionexus.Librarian"/>
+  <entry-point class="com.tais.biblionexus.client.librarian.LibrarianModule" />
+</module>

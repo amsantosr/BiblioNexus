@@ -1,0 +1,14 @@
+<compass-core-config xmlns="http://www.compass-project.org/schema/core-config"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.compass-project.org/schema/core-config
+           http://www.compass-project.org/schema/compass-core-config-2.3.xsd">
+
+	<compass name="default">
+		<connection>
+			<custom url="gae://index"/>
+		</connection>
+		<settings>
+		<setting name="compass.executorManager.type" value="disabled"/>
+		</settings>
+	</compass>
+</compass-core-config> 
